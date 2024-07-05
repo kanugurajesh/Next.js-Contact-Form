@@ -34,6 +34,7 @@ export const ContactEmailTemplate: React.FC<
       boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
     }}
   >
+    <img src="https://ik.imagekit.io/hbzknb1hm/new-email.png?updatedAt=1720184652387" width={100} height={100} alt="email" style={{ display: "block", margin: "auto" }} />
     <h1 style={{ color: "#4CAF50", textAlign: "center" }}>
       You got a message from Contact Form
     </h1>
