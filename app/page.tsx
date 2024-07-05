@@ -100,7 +100,7 @@ export default function Contact() {
               width={25}
               height={25}
             />
-            <p>kanugurajesh3@gmail.com</p>
+            <p>kanugurajesh6@gmail.com</p>
           </span>
           <span className="flex gap-5 align-center">
             <Image
@@ -111,7 +111,7 @@ export default function Contact() {
               height={25}
             />
             <Link href="https://www.instagram.com/kanugurajesh/">
-              <p>kanugurajesh</p>
+              <p>kanugurajesh3</p>
             </Link>
           </span>
         </div>
