@@ -24,20 +24,23 @@ export const ContactEmailTemplate: React.FC<
 > = ({ name, email, message }) => (
   <div
     style={{
-      border: "2px solid #ccc",
+      border: "2px solid #4CAF50",
       padding: "20px",
       borderRadius: "10px",
       maxWidth: "600px",
       margin: "auto",
-      backgroundColor: "#f9f9f9",
+      backgroundColor: "#f0f8ff",
       fontFamily: "Arial, sans-serif",
+      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
     }}
   >
-    <h1 style={{ color: "#333", textAlign: "center" }}>
+    <h1 style={{ color: "#4CAF50", textAlign: "center" }}>
       You got a message from Contact Form
     </h1>
-    <h2 style={{ color: "#555" }}>Name: {name}</h2>
-    <h2 style={{ color: "#555" }}>Email: {email}</h2>
-    <h2 style={{ color: "#555" }}>Message: {message}</h2>
+    <div style={{ color: "#333", marginBottom: "20px", textAlign: "center" }}>
+      <h2 style={{ color: "#333" }}>Name: {name}</h2>
+      <h2 style={{ color: "#333" }}>Email: {email}</h2>
+      <h2 style={{ color: "#333" }}>Message: {message}</h2>
+    </div>
   </div>
 );
