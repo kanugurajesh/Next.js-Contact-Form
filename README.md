@@ -22,11 +22,11 @@ This is a user friendly Next.js Contact Form which can be easily integrated in y
 
 ```bash
 1. Fork the repo
-2. git clone https://github.com/[your username]/llm-app/
-3. cd llm-app
+2. git clone https://github.com/[your username]/Next.js-Contact-Form/
+3. cd Next.js-Contact-Form
 4. npm install
 5. cp .env.example .env.local
-6. get the gemini api key and paste it in .env.local and start experiencing the app
+6. get the resend api key and paste it in the .env files and also add the email from which you have created your resend app
 ```
 
 ## Contribution Guidelines
@@ -41,13 +41,15 @@ If you encounter any issues or have feedback, please open an issue on our [GitHu
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://rajeshportfolio.me/)
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajesh-kanugu-aba8a3254/)
 [![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/exploringengin1)
+[![youtube](https://img.shields.io/badge/YouTube-red?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@RajeshKanugu)
+![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCK8JZ6oQY32SQO3ohLWkuxw)
 
 ## Tech Stack
 
 - Next.js
-- Gemini Pro Api
-- Tailwindcss
-- Shad/Cdn
+- TailwindCSS
+- Resend
+- Email-Template
 
 ## Authors
 
